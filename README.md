@@ -1,16 +1,18 @@
-# bloc_task
+# 🎨 Dealing with Different Types of BLoCs  
 
-A new Flutter project.
+Welcome to the **BLoC Exploration Lab**! This project is all about leveraging the power of Flutter's BLoC architecture to create a responsive, dynamic, and theme-aware app.
 
-## Getting Started
+## 🛠️ Features
+### 🚀 **Two Custom BLoCs**
+1. **CounterBloc**: Tracks and updates a simple integer counter.
+2. **ThemeBloc**: Toggles the app's theme between light and dark modes.
 
-This project is a starting point for a Flutter application.
+### 🎯 **Bloc Essentials in Action**
+- **BlocListener**: Displays a SnackBar when the counter hits specific milestones.
+- **BlocBuilder**: Updates the UI whenever the counter changes.
+- **BlocConsumer**: Combines listening and building, showing the counter and a SnackBar for key counter values.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎉 How to Experience It
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/mohamedsalah918101/BLoC-Task.git
